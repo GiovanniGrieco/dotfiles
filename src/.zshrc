@@ -42,7 +42,7 @@ VISUAL=nvim
 PAGER=less
 
 # Custom left prompt
-PS1="${SOLAR_YELLOW}%~${RESET}"$'\u29FD '
+PS1="${SOLAR_YELLOW}%~${RESET}"$'\u276F '
 
 # Favourite aliases
 . ~/.bash_aliases
