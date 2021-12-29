@@ -20,6 +20,9 @@ setopt autocd beep extendedglob nomatch notify
 bindkey -v
 # End of lines configured by zsh-newuser-install
 
+# Enable backward history search
+bindkey '^R' history-incremental-pattern-search-backward
+
 # Solarized Dark colour scheme
 BOLD="%{$(tput bold)%}"
 RESET="%{$(tput sgr0)%}"
