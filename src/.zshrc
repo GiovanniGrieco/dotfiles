@@ -50,7 +50,7 @@ PS1="${SOLAR_YELLOW}%~${RESET}"$'\u29FD '
 function check_failed_program() {
     # Report if previous program failed through the red X emoji
     if [ "$?" -ne "0" ]; then
-	echo $'\u274c'$RESET
+	echo $'\u274c'
     fi
 }
 
