@@ -54,3 +54,8 @@ fi
 LANGUAGE=C.UTF-8
 LC_ALL=C.UTF-8
 
+# Ensure favorite editor is set
+EDITOR=nvim
+VISUAL=nvim
+PAGER=less
+
