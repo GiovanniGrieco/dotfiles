@@ -64,7 +64,7 @@ function check_git_status() {
     if [ ! -z "$GIT_BRANCH" ]; then
         local GIT_DIFF=$(git diff-files --shortstat | awk '{ print "'${SOLAR_GREEN}'+"$4"'${SOLAR_RED}'-"$6 }')
 
-        echo $'\u2446'$GIT_BRANCH$GIT_DIFF$RESET
+        echo $GIT_BRANCH$GIT_DIFF$RESET
     fi
 }
 
