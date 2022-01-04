@@ -13,3 +13,12 @@ alias ll='ls -l'
 alias la='ls -A'
 alias l='ls -CF'
 
+# git frequent commands
+alias gs='git status --short --branch --show-stash'
+alias gd='git diff HEAD'
+alias gc='git commit --verbose'
+alias ga='git add'
+alias gr='git restore --staged'
+alias gpush='git push'
+alias gpull='git pull'
+
