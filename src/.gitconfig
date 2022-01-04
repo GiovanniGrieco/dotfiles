@@ -1,0 +1,7 @@
+[user]
+	name = Giovanni Grieco
+	email = giovanni@grieco.dev
+[init]
+	defaultBranch = main
+[core]
+	editor = nvim
